@@ -1,0 +1,124 @@
+
+/* This is Navigation Section */
+
+html,body{margin:0;padding:0;}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+    padding:50px;
+}
+
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-navlink{
+    text-transform: uppercase;
+    color: #000;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration:none;
+}
+.top-navlink:hover {
+    text-transform: uppercase;
+    text-decoration:underline;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+
+/* This is My Skills Section */
+
+.container {
+    max-width: auto;
+    align-self: center;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.skill {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.skill img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    text-align:center;
+    color:#B7573C;
+}
+
+.h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align:center;
+    color:#B7573C;
+}
+
+.p {
+    color: #000;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 152.523%;
+}
+/* This is My Footer */
+
+footer {
+    background-color: #B7573C;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+footer li {
+    padding: 10px; 
+}
