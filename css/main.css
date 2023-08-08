@@ -122,3 +122,23 @@ footer ul {
 footer li {
     padding: 10px; 
 }
+
+@media (max-width: 600px) {
+    /* Mobile styles */
+    .flex-container {
+      flex-direction: column;
+    }
+  
+    .flex-item {
+      width: 100%;
+    }
+
+    .grid-container {
+        grid-template-areas:
+          "navigation"
+          "container"
+          "footer";
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 1fr;
+      }
+  }
